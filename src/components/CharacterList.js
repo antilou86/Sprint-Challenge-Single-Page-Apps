@@ -16,7 +16,7 @@ const [characters, setCharacters] = useState();
 
   return <section className='character-list grid-view'>
 
-      {characters && characters.map(character => <CharacterCard key={character.id} character={character}/>)}}
+      {characters && characters.map(character => <CharacterCard key={character.id} character={character}/>)}
     </section>
 
 }
