@@ -20,6 +20,7 @@ const characterLabel = createLabel("users", "Characters")
 const panes = [
   { menuItem: <Menu.Item key='home' as={Nav} to={`/`} content={welcomeLabel} /> },
   { menuItem: <Menu.Item key='characters' as={Nav} to={`/characters`} content={characterLabel} /> }
+  
 ]
 
 const TabNav = () => <Tab panes={panes} renderActiveOnly={false} />
