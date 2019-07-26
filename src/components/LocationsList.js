@@ -12,7 +12,7 @@ export default function LocationsList() {
 
 return (
     <>
-    <LocationCard/>
+    {locations && locations.map(location => <LocationCard key={location.id} location={location}/> )}
     </>
 )
 }
